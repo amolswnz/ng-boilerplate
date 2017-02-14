@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Amol Wankhede">
+    <title>Boilerplate - Bootstrap template with angular </title>
+    <link rel="shortcut icon" href="assets/img/aw.png">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/toastr.min.css">
+    <link rel="stylesheet" href="assets/css/loading-bar.css">
+</head>
+<body ng-app="boilerplateApp">
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div ng-view></div>
+    </div>
+</div>
+<div class="container-fluid" id="footer">
+<div class="row-fluid">
+    <div class="col-md-12 text-center">
+        <a href="https://amolwankhede.com" target="_blank"><img src="assets/img/aw-footer.png" id="logo" alt="AW Logo"></a> 2017 Developed by <a href="https://amolwankhede.com" id="me" target="_blank">Amol Wankhede</a>
+    </div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular-route.min.js"></script>
+
+<!-- Angular Libraries -->
+<script src="app/lib/loading-bar.min.js"></script>
+
+<!-- Angular App -->
+<script src="app/app.js"></script>
+<script src="app/home/homeController.js"></script>
+<script src="app/home/homeService.js"></script>
+
+<!-- JavaScript libraries -->
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+<!-- <script src="assets/js/toastr.min.js"></script> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</body>
+</html>
