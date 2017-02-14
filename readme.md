@@ -17,9 +17,9 @@ This is a Boilerplate template build with Bootstrap and AngularJS.
     * `img` - Images
     * `js` - JavaScript libraries eg. jQuery or template related files
 * `app/app.js` - Main angular app
-* `app/home/homeController.js` - Controller for home
-* `app/home/homeService.js` - Service for home
-* `app/home/homeView.html` - View for home
+* `app/home/home.controller.js` - Controller for home
+* `app/home/home.service.js` - Service for home
+* `app/home/home.html` - View for home
 * Includes the following
     * Bootstrap
     * Font Awesome
@@ -41,3 +41,5 @@ This is a Boilerplate template build with Bootstrap and AngularJS.
 [toastr](https://github.com/CodeSeven/toastr) is a Javascript library for non-blocking notifications.
 
 [Font Awesome](http://fontawesome.io/) gives you scalable vector icons that can instantly be customized.
+
+[Style Guide John Papa](https://github.com/johnpapa/angular-styleguide) Opinionated Angular style guide for teams by @john_papa
